@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "@rocketseat/eslint-config/next", 
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    "no-useless-return": "off",
+    "prefer-const": "off",
+    "camelcase": "off",
+    "no-case-declarations": "off",
+    "no-undef": "off",
+    "@typescript-eslint/no-explicit-any":"off",
+    "@typescript-eslint/no-var-requires":"off"
+
+  }
+}
